@@ -1,13 +1,6 @@
 import Link from 'next/link';
 import { categories } from '@/lib/mock-data';
 
-const categoryGradients: Record<string, string> = {
-  clothing: 'linear-gradient(135deg, #1a1a2e 0%, #2a1a3e 50%, #1a1a2e 100%)',
-  accessories: 'linear-gradient(135deg, #1a2a1e 0%, #1a3a2e 50%, #1a2a1e 100%)',
-  bags: 'linear-gradient(135deg, #2a1a1e 0%, #3a1a2e 50%, #2a1a1e 100%)',
-  headwear: 'linear-gradient(135deg, #1a1a3e 0%, #2a2a4e 50%, #1a1a3e 100%)',
-};
-
 export default function CategoriesSection() {
   return (
     <section className="mx-auto max-w-2xl w-full px-6">
@@ -33,33 +26,20 @@ export default function CategoriesSection() {
             href={`/catalog?category=${cat.slug}`}
             className="flex-shrink-0 w-[192px] group"
           >
-            {/* Image placeholder */}
-            <div
-              className="w-full h-[192px] rounded-xl overflow-hidden relative"
-              style={{ backgroundColor: '#131313' }}
-            >
-              <div
-                className="absolute inset-0"
-                style={{
-                  background: categoryGradients[cat.slug] || categoryGradients.clothing,
-                }}
+            <div className="w-full h-[192px] rounded-xl overflow-hidden relative bg-[#131313]">
+              <img
+                src={cat.image_url}
+                alt={cat.name}
+                className="absolute inset-0 w-full h-full object-cover"
               />
-              {/* Purple tint overlay */}
               <div
-                className="absolute inset-0 opacity-30"
+                className="absolute inset-0 opacity-20"
                 style={{
                   background: 'linear-gradient(180deg, rgba(191,129,255,0.3) 0%, rgba(191,129,255,0.05) 100%)',
                 }}
               />
-              {/* Subtle icon/pattern indicator */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-4xl font-heading text-white/10 uppercase tracking-widest">
-                  {cat.name.charAt(0)}
-                </span>
-              </div>
             </div>
-            {/* Name */}
-            <p className="mt-3 text-sm font-heading text-white uppercase tracking-wide group-hover:text-accent-lime transition-colors">
+            <p className="mt-3 text-sm font-heading text-white uppercase tracking-wide group-hover:text-[#e9ffb9] transition-colors">
               {cat.name}
             </p>
           </Link>

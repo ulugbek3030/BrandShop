@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#1a1615"/>
+      <stop offset="100%" stop-color="#131313"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <!-- Shoe sole tread pattern -->
+  <g transform="translate(200, 350)" opacity="0.15">
+    <!-- Tread blocks -->
+    <rect x="0" y="0" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="60" y="0" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="120" y="0" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="180" y="0" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="240" y="0" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="300" y="0" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="10" y="35" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="70" y="35" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="130" y="35" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="190" y="35" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="250" y="35" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="310" y="35" width="40" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="0" y="70" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="60" y="70" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="120" y="70" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="180" y="70" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="240" y="70" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="300" y="70" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="10" y="105" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="70" y="105" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="130" y="105" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="190" y="105" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+    <rect x="250" y="105" width="50" height="20" rx="3" fill="none" stroke="#e9ffb9" stroke-width="0.8"/>
+  </g>
+  <!-- Shoe silhouette outline -->
+  <path d="M200,580 Q180,550 200,520 Q250,480 400,470 Q550,480 620,520 Q640,550 620,580 Z" fill="none" stroke="#e9ffb9" stroke-width="1" opacity="0.12"/>
+  <!-- Sole line -->
+  <path d="M200,580 Q400,600 620,580" fill="none" stroke="#e9ffb9" stroke-width="1.5" opacity="0.15"/>
+  <!-- Product name -->
+  <text x="400" y="480" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff" letter-spacing="6">CLICK</text>
+  <text x="400" y="535" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#e9ffb9" letter-spacing="12">FOOTWEAR</text>
+  <text x="400" y="900" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="8">CLICK.UZ</text>
+</svg>

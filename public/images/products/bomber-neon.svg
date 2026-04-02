@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <radialGradient id="neonglow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#2aff4e" stop-opacity="0.08"/>
+      <stop offset="60%" stop-color="#1aff3e" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#131313" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="1000" fill="#131313"/>
+  <rect width="800" height="1000" fill="url(#neonglow)"/>
+  <!-- Neon border frame -->
+  <rect x="80" y="100" width="640" height="800" rx="12" fill="none" stroke="#2aff4e" stroke-width="1" opacity="0.12"/>
+  <rect x="100" y="120" width="600" height="760" rx="8" fill="none" stroke="#2aff4e" stroke-width="0.5" opacity="0.08"/>
+  <!-- Neon accent lines with glow -->
+  <line x1="200" y1="300" x2="600" y2="300" stroke="#2aff4e" stroke-width="2" opacity="0.2" filter="url(#glow)"/>
+  <line x1="200" y1="600" x2="600" y2="600" stroke="#2aff4e" stroke-width="2" opacity="0.2" filter="url(#glow)"/>
+  <!-- Zipper line -->
+  <line x1="400" y1="250" x2="400" y2="700" stroke="#2aff4e" stroke-width="1.5" opacity="0.15" stroke-dasharray="8,6"/>
+  <!-- Collar shape -->
+  <path d="M320,280 Q400,250 480,280" fill="none" stroke="#2aff4e" stroke-width="1" opacity="0.2"/>
+  <!-- Glow dots -->
+  <circle cx="200" cy="300" r="4" fill="#2aff4e" opacity="0.3" filter="url(#glow)"/>
+  <circle cx="600" cy="300" r="4" fill="#2aff4e" opacity="0.3" filter="url(#glow)"/>
+  <circle cx="200" cy="600" r="4" fill="#2aff4e" opacity="0.3" filter="url(#glow)"/>
+  <circle cx="600" cy="600" r="4" fill="#2aff4e" opacity="0.3" filter="url(#glow)"/>
+  <!-- Product name -->
+  <text x="400" y="460" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff" letter-spacing="6">БОМБЕР</text>
+  <text x="400" y="520" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="300" fill="#2aff4e" letter-spacing="16" filter="url(#glow)">NEON</text>
+  <text x="400" y="900" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="8">CLICK.UZ</text>
+</svg>

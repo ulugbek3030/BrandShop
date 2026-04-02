@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#1a2218"/>
+      <stop offset="100%" stop-color="#131313"/>
+    </radialGradient>
+    <linearGradient id="olive" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4a5a2a" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#131313" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#olive)"/>
+  <!-- Orbit rings -->
+  <ellipse cx="400" cy="450" rx="280" ry="100" fill="none" stroke="#6b8a3e" stroke-width="1" opacity="0.2" transform="rotate(-15 400 450)"/>
+  <ellipse cx="400" cy="450" rx="220" ry="80" fill="none" stroke="#6b8a3e" stroke-width="0.8" opacity="0.15" transform="rotate(-15 400 450)"/>
+  <ellipse cx="400" cy="450" rx="160" ry="60" fill="none" stroke="#6b8a3e" stroke-width="0.5" opacity="0.1" transform="rotate(-15 400 450)"/>
+  <!-- Cargo pocket outlines -->
+  <rect x="180" y="600" width="120" height="100" rx="6" fill="none" stroke="#6b8a3e" stroke-width="1" opacity="0.15"/>
+  <rect x="500" y="620" width="120" height="100" rx="6" fill="none" stroke="#6b8a3e" stroke-width="1" opacity="0.12"/>
+  <!-- Stitch lines -->
+  <line x1="180" y1="650" x2="300" y2="650" stroke="#6b8a3e" stroke-width="0.5" opacity="0.2" stroke-dasharray="4,4"/>
+  <line x1="500" y1="670" x2="620" y2="670" stroke="#6b8a3e" stroke-width="0.5" opacity="0.2" stroke-dasharray="4,4"/>
+  <!-- Small dot accents -->
+  <circle cx="240" cy="350" r="3" fill="#6b8a3e" opacity="0.3"/>
+  <circle cx="560" cy="320" r="2" fill="#6b8a3e" opacity="0.2"/>
+  <circle cx="400" cy="280" r="2.5" fill="#e9ffb9" opacity="0.15"/>
+  <!-- Product name -->
+  <text x="400" y="460" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff" letter-spacing="4">БРЮКИ КАРГО</text>
+  <text x="400" y="510" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#e9ffb9" letter-spacing="12">ORBIT</text>
+  <text x="400" y="900" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="8">CLICK.UZ</text>
+</svg>

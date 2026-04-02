@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#15181a"/>
+      <stop offset="100%" stop-color="#131313"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a4a4a" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#131313" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#teal)"/>
+  <!-- Strap curve line -->
+  <path d="M200,200 Q100,500 250,750" fill="none" stroke="#4ac9c9" stroke-width="2" opacity="0.15"/>
+  <path d="M210,200 Q110,500 260,750" fill="none" stroke="#4ac9c9" stroke-width="0.5" opacity="0.1"/>
+  <!-- Second strap line -->
+  <path d="M600,250 Q700,500 550,720" fill="none" stroke="#4ac9c9" stroke-width="1.5" opacity="0.1"/>
+  <!-- Bag body outline -->
+  <path d="M300,380 Q280,380 280,400 L280,580 Q280,620 320,620 L480,620 Q520,620 520,580 L520,400 Q520,380 500,380 Z" fill="none" stroke="#4ac9c9" stroke-width="1" opacity="0.18"/>
+  <!-- Zipper -->
+  <line x1="310" y1="420" x2="490" y2="420" stroke="#4ac9c9" stroke-width="0.8" opacity="0.15"/>
+  <circle cx="490" cy="420" r="4" fill="none" stroke="#4ac9c9" stroke-width="0.8" opacity="0.2"/>
+  <!-- Front pocket -->
+  <rect x="310" y="460" width="180" height="80" rx="6" fill="none" stroke="#4ac9c9" stroke-width="0.6" opacity="0.12"/>
+  <!-- Buckle detail -->
+  <rect x="370" y="370" width="60" height="15" rx="3" fill="none" stroke="#4ac9c9" stroke-width="0.6" opacity="0.15"/>
+  <!-- Product name -->
+  <text x="400" y="490" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff" letter-spacing="4">СУМКА</text>
+  <text x="400" y="545" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#4ac9c9" letter-spacing="12">СЛИНГ</text>
+  <text x="400" y="900" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="8">CLICK.UZ</text>
+</svg>

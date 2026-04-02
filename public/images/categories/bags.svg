@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#141f16"/>
+      <stop offset="100%" stop-color="#131313"/>
+    </radialGradient>
+    <linearGradient id="greenglow" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#4a8a3a" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#131313" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#greenglow)"/>
+  <!-- Bag outline shape -->
+  <path d="M280,320 L280,520 Q280,560 320,560 L480,560 Q520,560 520,520 L520,320 Q520,300 500,300 L300,300 Q280,300 280,320 Z" fill="none" stroke="#5aaa4a" stroke-width="1.5" opacity="0.22"/>
+  <!-- Handles -->
+  <path d="M330,300 Q330,240 400,240 Q470,240 470,300" fill="none" stroke="#5aaa4a" stroke-width="1.5" opacity="0.2"/>
+  <!-- Flap -->
+  <path d="M290,350 L510,350 Q515,350 515,355 L515,390 Q515,395 510,395 L290,395 Q285,395 285,390 L285,355 Q285,350 290,350 Z" fill="none" stroke="#5aaa4a" stroke-width="0.8" opacity="0.15"/>
+  <!-- Buckle/clasp -->
+  <rect x="385" y="385" width="30" height="20" rx="3" fill="none" stroke="#5aaa4a" stroke-width="0.8" opacity="0.2"/>
+  <circle cx="400" cy="395" r="4" fill="none" stroke="#5aaa4a" stroke-width="0.6" opacity="0.2"/>
+  <!-- Front pocket -->
+  <rect x="320" y="420" width="160" height="90" rx="6" fill="none" stroke="#5aaa4a" stroke-width="0.6" opacity="0.12"/>
+  <!-- Zipper on pocket -->
+  <line x1="330" y1="440" x2="470" y2="440" stroke="#5aaa4a" stroke-width="0.5" opacity="0.1" stroke-dasharray="4,3"/>
+  <!-- Side stitching -->
+  <line x1="290" y1="320" x2="290" y2="540" stroke="#5aaa4a" stroke-width="0.5" opacity="0.1" stroke-dasharray="3,3"/>
+  <line x1="510" y1="320" x2="510" y2="540" stroke="#5aaa4a" stroke-width="0.5" opacity="0.1" stroke-dasharray="3,3"/>
+  <!-- Background rings -->
+  <circle cx="400" cy="400" r="180" fill="none" stroke="#5aaa4a" stroke-width="0.3" opacity="0.05"/>
+  <circle cx="400" cy="400" r="220" fill="none" stroke="#5aaa4a" stroke-width="0.3" opacity="0.03"/>
+  <!-- Category name -->
+  <text x="400" y="530" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#ffffff" letter-spacing="14">СУМКИ</text>
+  <line x1="300" y1="555" x2="500" y2="555" stroke="#5aaa4a" stroke-width="1" opacity="0.25"/>
+  <text x="400" y="720" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="8">CLICK.UZ</text>
+</svg>

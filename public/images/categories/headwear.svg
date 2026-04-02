@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#12162a"/>
+      <stop offset="100%" stop-color="#131313"/>
+    </radialGradient>
+    <linearGradient id="blueglow" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#3a5ab8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#131313" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#blueglow)"/>
+  <!-- Cap outline -->
+  <path d="M280,400 Q280,320 340,290 Q400,270 460,290 Q520,320 520,400" fill="none" stroke="#5a7ad4" stroke-width="1.5" opacity="0.25"/>
+  <!-- Cap crown panels -->
+  <path d="M400,270 L400,400" stroke="#5a7ad4" stroke-width="0.5" opacity="0.12"/>
+  <path d="M340,290 Q370,350 380,400" stroke="#5a7ad4" stroke-width="0.5" opacity="0.08"/>
+  <path d="M460,290 Q430,350 420,400" stroke="#5a7ad4" stroke-width="0.5" opacity="0.08"/>
+  <!-- Button on top -->
+  <circle cx="400" cy="270" r="5" fill="none" stroke="#5a7ad4" stroke-width="1" opacity="0.2"/>
+  <!-- Brim -->
+  <path d="M280,400 Q260,405 240,420 Q220,440 250,450 L550,450 Q580,440 560,420 Q540,405 520,400" fill="none" stroke="#5a7ad4" stroke-width="1.5" opacity="0.22"/>
+  <!-- Brim edge stitching -->
+  <path d="M260,440 Q400,455 540,440" fill="none" stroke="#5a7ad4" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,3"/>
+  <!-- Sweatband line -->
+  <path d="M285,395 Q400,410 515,395" fill="none" stroke="#5a7ad4" stroke-width="0.8" opacity="0.15"/>
+  <!-- Logo area on front -->
+  <rect x="370" y="330" width="60" height="40" rx="4" fill="none" stroke="#5a7ad4" stroke-width="0.6" opacity="0.12"/>
+  <!-- Adjustment strap at back -->
+  <path d="M490,380 Q510,385 520,395" fill="none" stroke="#5a7ad4" stroke-width="0.8" opacity="0.1"/>
+  <!-- Decorative background elements -->
+  <circle cx="400" cy="380" r="140" fill="none" stroke="#5a7ad4" stroke-width="0.3" opacity="0.05"/>
+  <circle cx="400" cy="380" r="190" fill="none" stroke="#5a7ad4" stroke-width="0.3" opacity="0.03"/>
+  <!-- Small star accents -->
+  <circle cx="220" cy="280" r="1.5" fill="#5a7ad4" opacity="0.15"/>
+  <circle cx="580" cy="300" r="1.5" fill="#5a7ad4" opacity="0.12"/>
+  <circle cx="300" cy="200" r="1" fill="#5a7ad4" opacity="0.1"/>
+  <circle cx="520" cy="230" r="1" fill="#5a7ad4" opacity="0.1"/>
+  <!-- Category name -->
+  <text x="400" y="540" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff" letter-spacing="6">ГОЛОВНЫЕ</text>
+  <text x="400" y="585" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff" letter-spacing="6">УБОРЫ</text>
+  <line x1="280" y1="605" x2="520" y2="605" stroke="#5a7ad4" stroke-width="1" opacity="0.25"/>
+  <text x="400" y="720" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="8">CLICK.UZ</text>
+</svg>

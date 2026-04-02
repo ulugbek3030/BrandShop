@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151520"/>
+      <stop offset="100%" stop-color="#131313"/>
+    </linearGradient>
+    <linearGradient id="phonegrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bf81ff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#131313" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <!-- Phone outline shape -->
+  <rect x="290" y="240" width="220" height="440" rx="24" fill="url(#phonegrad)" stroke="#bf81ff" stroke-width="1.2" opacity="0.2"/>
+  <!-- Screen area -->
+  <rect x="300" y="260" width="200" height="400" rx="16" fill="none" stroke="#bf81ff" stroke-width="0.5" opacity="0.1"/>
+  <!-- Camera notch -->
+  <rect x="370" y="270" width="60" height="8" rx="4" fill="#bf81ff" opacity="0.08"/>
+  <!-- Screen elements -->
+  <line x1="320" y1="350" x2="480" y2="350" stroke="#bf81ff" stroke-width="0.5" opacity="0.08"/>
+  <line x1="320" y1="400" x2="440" y2="400" stroke="#bf81ff" stroke-width="0.5" opacity="0.06"/>
+  <line x1="320" y1="450" x2="460" y2="450" stroke="#bf81ff" stroke-width="0.5" opacity="0.06"/>
+  <!-- Camera bump -->
+  <rect x="305" y="265" width="50" height="50" rx="10" fill="none" stroke="#bf81ff" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="330" cy="290" r="10" fill="none" stroke="#bf81ff" stroke-width="0.5" opacity="0.1"/>
+  <!-- Decorative corner brackets -->
+  <path d="M200,200 L200,180 L220,180" fill="none" stroke="#bf81ff" stroke-width="0.8" opacity="0.15"/>
+  <path d="M600,200 L600,180 L580,180" fill="none" stroke="#bf81ff" stroke-width="0.8" opacity="0.15"/>
+  <path d="M200,730 L200,750 L220,750" fill="none" stroke="#bf81ff" stroke-width="0.8" opacity="0.15"/>
+  <path d="M600,730 L600,750 L580,750" fill="none" stroke="#bf81ff" stroke-width="0.8" opacity="0.15"/>
+  <!-- Product name -->
+  <text x="400" y="490" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff" letter-spacing="6">FLEX CASE</text>
+  <text x="400" y="540" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#bf81ff" letter-spacing="10">SERIES</text>
+  <text x="400" y="900" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="8">CLICK.UZ</text>
+</svg>

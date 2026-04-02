@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#1a1520"/>
+      <stop offset="100%" stop-color="#131313"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <!-- Pin/badge shapes scattered -->
+  <!-- Pin 1 - circle -->
+  <circle cx="280" cy="340" r="35" fill="none" stroke="#bf81ff" stroke-width="1.2" opacity="0.2"/>
+  <circle cx="280" cy="340" r="25" fill="none" stroke="#bf81ff" stroke-width="0.5" opacity="0.12"/>
+  <line x1="280" y1="375" x2="280" y2="400" stroke="#bf81ff" stroke-width="1" opacity="0.15"/>
+  <!-- Pin 2 - diamond -->
+  <polygon points="520,320 550,350 520,380 490,350" fill="none" stroke="#e9ffb9" stroke-width="1" opacity="0.2"/>
+  <polygon points="520,335 535,350 520,365 505,350" fill="none" stroke="#e9ffb9" stroke-width="0.5" opacity="0.12"/>
+  <line x1="520" y1="380" x2="520" y2="405" stroke="#e9ffb9" stroke-width="1" opacity="0.15"/>
+  <!-- Pin 3 - star shape -->
+  <polygon points="350,560 358,580 380,580 362,593 370,615 350,600 330,615 338,593 320,580 342,580" fill="none" stroke="#bf81ff" stroke-width="0.8" opacity="0.18"/>
+  <line x1="350" y1="615" x2="350" y2="640" stroke="#bf81ff" stroke-width="1" opacity="0.12"/>
+  <!-- Pin 4 - hexagon -->
+  <polygon points="500,550 525,535 550,550 550,580 525,595 500,580" fill="none" stroke="#e9ffb9" stroke-width="1" opacity="0.15"/>
+  <line x1="525" y1="595" x2="525" y2="620" stroke="#e9ffb9" stroke-width="1" opacity="0.12"/>
+  <!-- Pin 5 - small circle -->
+  <circle cx="200" cy="560" r="20" fill="none" stroke="#bf81ff" stroke-width="0.8" opacity="0.12"/>
+  <text x="200" y="566" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#bf81ff" opacity="0.15">C</text>
+  <!-- Pin 6 - rectangle badge -->
+  <rect x="580" cy="440" y="440" width="50" height="35" rx="4" fill="none" stroke="#e9ffb9" stroke-width="0.8" opacity="0.12"/>
+  <!-- Scattered dots -->
+  <circle cx="160" cy="400" r="2" fill="#bf81ff" opacity="0.15"/>
+  <circle cx="640" cy="480" r="2" fill="#e9ffb9" opacity="0.15"/>
+  <circle cx="400" cy="280" r="2" fill="#bf81ff" opacity="0.1"/>
+  <circle cx="300" cy="680" r="2" fill="#e9ffb9" opacity="0.1"/>
+  <!-- Product name -->
+  <text x="400" y="475" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff" letter-spacing="6">ICON PIN</text>
+  <text x="400" y="525" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#bf81ff" letter-spacing="10">PACK</text>
+  <text x="400" y="900" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="8">CLICK.UZ</text>
+</svg>

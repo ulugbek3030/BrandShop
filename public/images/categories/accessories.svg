@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#111f20"/>
+      <stop offset="100%" stop-color="#131313"/>
+    </radialGradient>
+    <linearGradient id="tealglow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a8a8a" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#131313" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#tealglow)"/>
+  <!-- Watch/bracelet outline -->
+  <circle cx="400" cy="360" r="80" fill="none" stroke="#4ac9c9" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="400" cy="360" r="70" fill="none" stroke="#4ac9c9" stroke-width="0.5" opacity="0.15"/>
+  <!-- Watch face details -->
+  <line x1="400" y1="300" x2="400" y2="310" stroke="#4ac9c9" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="410" x2="400" y2="420" stroke="#4ac9c9" stroke-width="1" opacity="0.2"/>
+  <line x1="330" y1="360" x2="340" y2="360" stroke="#4ac9c9" stroke-width="1" opacity="0.2"/>
+  <line x1="460" y1="360" x2="470" y2="360" stroke="#4ac9c9" stroke-width="1" opacity="0.2"/>
+  <!-- Watch hands -->
+  <line x1="400" y1="360" x2="400" y2="320" stroke="#4ac9c9" stroke-width="1.2" opacity="0.3"/>
+  <line x1="400" y1="360" x2="430" y2="345" stroke="#4ac9c9" stroke-width="0.8" opacity="0.25"/>
+  <circle cx="400" cy="360" r="3" fill="#4ac9c9" opacity="0.3"/>
+  <!-- Watch band -->
+  <rect x="380" y="220" width="40" height="70" rx="4" fill="none" stroke="#4ac9c9" stroke-width="1" opacity="0.15"/>
+  <rect x="380" y="440" width="40" height="70" rx="4" fill="none" stroke="#4ac9c9" stroke-width="1" opacity="0.15"/>
+  <!-- Band segments -->
+  <line x1="382" y1="240" x2="418" y2="240" stroke="#4ac9c9" stroke-width="0.5" opacity="0.1"/>
+  <line x1="382" y1="255" x2="418" y2="255" stroke="#4ac9c9" stroke-width="0.5" opacity="0.1"/>
+  <line x1="382" y1="270" x2="418" y2="270" stroke="#4ac9c9" stroke-width="0.5" opacity="0.1"/>
+  <line x1="382" y1="460" x2="418" y2="460" stroke="#4ac9c9" stroke-width="0.5" opacity="0.1"/>
+  <line x1="382" y1="475" x2="418" y2="475" stroke="#4ac9c9" stroke-width="0.5" opacity="0.1"/>
+  <line x1="382" y1="490" x2="418" y2="490" stroke="#4ac9c9" stroke-width="0.5" opacity="0.1"/>
+  <!-- Decorative rings -->
+  <circle cx="400" cy="360" r="120" fill="none" stroke="#4ac9c9" stroke-width="0.3" opacity="0.06"/>
+  <circle cx="400" cy="360" r="160" fill="none" stroke="#4ac9c9" stroke-width="0.3" opacity="0.04"/>
+  <!-- Category name -->
+  <text x="400" y="540" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff" letter-spacing="10">АКСЕССУАРЫ</text>
+  <line x1="250" y1="560" x2="550" y2="560" stroke="#4ac9c9" stroke-width="1" opacity="0.25"/>
+  <text x="400" y="720" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="8">CLICK.UZ</text>
+</svg>

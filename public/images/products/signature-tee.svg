@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#181818"/>
+      <stop offset="100%" stop-color="#131313"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <!-- Large CLICK watermark -->
+  <text x="400" y="550" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="200" font-weight="900" fill="#1e1e1e" letter-spacing="20">CLICK</text>
+  <!-- Subtle frame -->
+  <rect x="60" y="80" width="680" height="840" rx="4" fill="none" stroke="#2a2a2a" stroke-width="0.5" opacity="0.5"/>
+  <!-- Dot pattern -->
+  <circle cx="150" cy="300" r="1.5" fill="#fff" opacity="0.05"/>
+  <circle cx="250" cy="280" r="1.5" fill="#fff" opacity="0.05"/>
+  <circle cx="550" cy="320" r="1.5" fill="#fff" opacity="0.05"/>
+  <circle cx="650" cy="290" r="1.5" fill="#fff" opacity="0.05"/>
+  <circle cx="350" cy="700" r="1.5" fill="#fff" opacity="0.05"/>
+  <circle cx="450" cy="720" r="1.5" fill="#fff" opacity="0.05"/>
+  <!-- Horizontal rule -->
+  <line x1="250" y1="570" x2="550" y2="570" stroke="#333" stroke-width="0.5" opacity="0.4"/>
+  <!-- Product name -->
+  <text x="400" y="480" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff" letter-spacing="8">CLICK</text>
+  <text x="400" y="530" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#999" letter-spacing="12">SIGNATURE TEE</text>
+  <text x="400" y="900" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="8">CLICK.UZ</text>
+</svg>

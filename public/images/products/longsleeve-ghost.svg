@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#131313"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#333" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#131313" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#accent)"/>
+  <!-- Minimal horizontal lines -->
+  <line x1="100" y1="250" x2="700" y2="250" stroke="#444" stroke-width="0.5" opacity="0.3"/>
+  <line x1="150" y1="380" x2="650" y2="380" stroke="#444" stroke-width="0.5" opacity="0.2"/>
+  <line x1="200" y1="510" x2="600" y2="510" stroke="#444" stroke-width="0.5" opacity="0.15"/>
+  <line x1="250" y1="640" x2="550" y2="640" stroke="#444" stroke-width="0.5" opacity="0.1"/>
+  <!-- Ghost-like fade shapes -->
+  <ellipse cx="400" cy="400" rx="200" ry="280" fill="none" stroke="#555" stroke-width="0.5" opacity="0.1"/>
+  <ellipse cx="400" cy="400" rx="150" ry="220" fill="none" stroke="#555" stroke-width="0.5" opacity="0.08"/>
+  <ellipse cx="400" cy="400" rx="100" ry="160" fill="none" stroke="#555" stroke-width="0.5" opacity="0.06"/>
+  <!-- Subtle vertical lines -->
+  <line x1="300" y1="150" x2="300" y2="750" stroke="#333" stroke-width="0.5" opacity="0.15"/>
+  <line x1="500" y1="150" x2="500" y2="750" stroke="#333" stroke-width="0.5" opacity="0.15"/>
+  <!-- Product name -->
+  <text x="400" y="470" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff" letter-spacing="4">ЛОНГСЛИВ</text>
+  <text x="400" y="525" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#888" letter-spacing="10">GHOST KNIT</text>
+  <text x="400" y="900" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="8">CLICK.UZ</text>
+</svg>

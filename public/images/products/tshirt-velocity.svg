@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1d13"/>
+      <stop offset="100%" stop-color="#131313"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <!-- Diagonal lime stripes -->
+  <line x1="0" y1="300" x2="300" y2="0" stroke="#e9ffb9" stroke-width="2" opacity="0.08"/>
+  <line x1="0" y1="450" x2="450" y2="0" stroke="#e9ffb9" stroke-width="2" opacity="0.1"/>
+  <line x1="0" y1="600" x2="600" y2="0" stroke="#e9ffb9" stroke-width="3" opacity="0.12"/>
+  <line x1="0" y1="750" x2="750" y2="0" stroke="#e9ffb9" stroke-width="2" opacity="0.1"/>
+  <line x1="0" y1="900" x2="800" y2="100" stroke="#e9ffb9" stroke-width="2" opacity="0.08"/>
+  <line x1="100" y1="1000" x2="800" y2="300" stroke="#e9ffb9" stroke-width="2" opacity="0.06"/>
+  <line x1="300" y1="1000" x2="800" y2="500" stroke="#e9ffb9" stroke-width="1.5" opacity="0.05"/>
+  <!-- Speed lines -->
+  <line x1="50" y1="480" x2="350" y2="480" stroke="#e9ffb9" stroke-width="1" opacity="0.15"/>
+  <line x1="450" y1="520" x2="750" y2="520" stroke="#e9ffb9" stroke-width="1" opacity="0.15"/>
+  <!-- Arrow accent -->
+  <polygon points="700,400 720,420 700,440 710,420" fill="#e9ffb9" opacity="0.12"/>
+  <polygon points="680,400 700,420 680,440 690,420" fill="#e9ffb9" opacity="0.08"/>
+  <!-- Product name -->
+  <text x="400" y="480" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff" letter-spacing="4">ФУТБОЛКА</text>
+  <text x="400" y="535" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="300" fill="#e9ffb9" letter-spacing="14">VELOCITY</text>
+  <text x="400" y="900" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="8">CLICK.UZ</text>
+</svg>
