@@ -45,7 +45,7 @@ export default function ProductGrid() {
             className="text-sm uppercase tracking-widest"
             style={{ color: '#e9ffb9' }}
           >
-            / {products.length} товара
+            / {products.length} товаров
           </span>
         </div>
       </div>

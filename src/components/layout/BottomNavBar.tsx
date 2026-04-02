@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { Home, Grid2x2, ShoppingCart, User } from 'lucide-react';
 
 const navItems = [
-  { href: '/', label: 'Home', icon: Home },
+  { href: '/', label: 'Главная', icon: Home },
   { href: '/catalog', label: '\u041a\u0430\u0442\u0430\u043b\u043e\u0433', icon: Grid2x2 },
   { href: '/cart', label: '\u041a\u043e\u0440\u0437\u0438\u043d\u0430', icon: ShoppingCart },
   { href: '/profile', label: '\u041f\u0440\u043e\u0444\u0438\u043b\u044c', icon: User },

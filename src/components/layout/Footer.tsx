@@ -22,14 +22,14 @@ const socials = [
 export default function Footer() {
   return (
     <footer className="border-t" style={{ borderColor: 'rgba(72,72,71,0.1)', backgroundColor: '#0e0e0e' }}>
-      <div className="mx-auto max-w-2xl px-6 py-10">
+      <div className="mx-auto max-w-2xl px-6 pt-10 pb-24">
         {/* Logo & Description */}
         <div className="mb-8">
           <span className="text-2xl tracking-tighter uppercase font-bold" style={{ color: '#e9ffb9', fontFamily: 'var(--font-space-grotesk), sans-serif' }}>
             CLICK.UZ
           </span>
           <p className="mt-2 text-sm leading-relaxed" style={{ color: '#adaaaa' }}>
-            Streetwear & techwear. Premium quality merch with exclusive drops.
+            Кураторская подборка одежды и аксессуаров для смелых. Дизайн в Ташкенте, доставка по всему миру.
           </p>
         </div>
 
