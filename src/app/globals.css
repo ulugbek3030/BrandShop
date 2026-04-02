@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-bg: #0e0e0e;
+  --color-bg-card: #131313;
+  --color-bg-surface: #1a1919;
+  --color-bg-input: #262626;
+  --color-accent-lime: #e9ffb9;
+  --color-accent-green: #bbfd00;
+  --color-accent-purple: #bf81ff;
+  --color-accent-purple-dark: #32005c;
+  --color-accent-purple-price: #9c42f4;
+  --color-text-primary: #ffffff;
+  --color-text-muted: #adaaaa;
+  --color-text-inactive: #737373;
+  --color-border: rgba(72, 72, 71, 0.2);
+  --color-border-light: rgba(72, 72, 71, 0.1);
+  --font-sans: 'Inter', sans-serif;
+  --font-heading: 'Georgia', 'Liberation Serif', serif;
+  --font-display: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background: #0e0e0e;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide scrollbar but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom scrollbar for desktop */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0e0e0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
