@@ -177,11 +177,12 @@ export default function ProductPage() {
           </p>
 
           {/* Color selector */}
+          {product.colors.length > 0 && (
           <div className="mt-6">
             <p className="text-xs uppercase tracking-widest text-white mb-3">
               Цвет:{' '}
               <span style={{ color: '#adaaaa' }}>
-                {product.colors[selectedColor].name}
+                {product.colors[selectedColor]?.name}
               </span>
             </p>
             <div className="flex gap-3">
@@ -216,8 +217,10 @@ export default function ProductPage() {
               ))}
             </div>
           </div>
+          )}
 
           {/* Size selector */}
+          {product.sizes.length > 0 && (
           <div className="mt-6">
             <p className="text-xs uppercase tracking-widest text-white mb-3">
               Размер
@@ -244,6 +247,7 @@ export default function ProductPage() {
               })}
             </div>
           </div>
+          )}
 
           {/* Accordion sections */}
           <div className="mt-8 space-y-0">
