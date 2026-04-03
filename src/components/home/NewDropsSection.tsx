@@ -39,22 +39,19 @@ export default function NewDropsSection() {
               className="relative w-full h-[427px] rounded-xl overflow-hidden"
               style={{ backgroundColor: '#131313' }}
             >
-              {/* Gradient placeholder */}
-              <div
-                className="absolute inset-0"
-                style={{
-                  background: `
-                    radial-gradient(ellipse 70% 50% at 50% 50%, rgba(191,129,255,0.08) 0%, transparent 70%),
-                    linear-gradient(180deg, #1a1a1a 0%, #131313 100%)
-                  `,
-                }}
-              />
-              {/* Product initial as placeholder */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-6xl font-heading text-white/5 uppercase">
-                  {product.name.charAt(0)}
-                </span>
-              </div>
+              {product.images && product.images.length > 0 ? (
+                <img
+                  src={product.images[0]}
+                  alt={product.name}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              ) : (
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-6xl font-heading text-white/5 uppercase">
+                    {product.name.charAt(0)}
+                  </span>
+                </div>
+              )}
 
               {/* Price badge */}
               <div

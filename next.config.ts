@@ -1,7 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'robosell.ams3.digitaloceanspaces.com',
+        pathname: '/robosell/**',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
